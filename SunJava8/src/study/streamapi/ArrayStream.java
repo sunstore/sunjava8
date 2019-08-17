@@ -29,6 +29,7 @@ public class ArrayStream
 		//배열에서 특정 부분만 이용한 스트림 생성
 		Stream<String> stream4 = Arrays.stream(arr2, 2, 3);
 		stream4.forEach(e -> System.out.print(e + " "));
+	
 		
 	}
 }
