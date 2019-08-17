@@ -30,5 +30,6 @@ public class ArrayStream
 		Stream<String> stream4 = Arrays.stream(arr2, 2, 3);
 		stream4.forEach(e -> System.out.print(e + " "));
 		
+		
 	}
 }
